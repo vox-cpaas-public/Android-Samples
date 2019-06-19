@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">GroupManagementSample</string>
+    <string name="activation">Activation</string>
+    <string name="activation_string">Please enter the activation code sent to your phone</string>
+    <string name="your_phone">Your Phone</string>
+    <string name="string_continue">Continue</string>
+    <string name="code">+91</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="signup">Sign Up</string>
+    <string name="country">Country(+91)</string>
+    <string name="setup">Setup</string>
+    <string name="ConnectSDK">ConnectSDK</string>
+    <!--SignUp screen-->
+    <string name="sign_up">Sign Up</string>
+    <string name="error_empty_number">Please enter a valid number</string>
+    <string name="user_alert_dialog_tittle">Confirmation</string>
+    <string name="user_alert_confirm_message">A verification code will be sent by SMS to this Number </string>
+    <string name="network_error_message">NetworkError</string>
+    <string name="network_unavailable_message">No Internet Available</string>
+    <string name="initialization_failure_message">Initialization Failure</string>
+    <string name="sign_up_failure">SignUp Failure</string>
+
+    <!--Activation screen-->
+    <string name="error_empty_otp">Please enter OTP</string>
+    <string name="login_success_message">Login Success</string>
+    <string name="login_failure_message">Login Failure</string>
+
+    <string name="say_something">say something..</string>
+    <string name="add_photo">add photo</string>
+    <string name="group_photo">Add Group image</string>
+    <string name="done">Done</string>
+    <string name="error_empty_group">Group Name is mandatory</string>
+    <string name="group_members">Group Members </string>
+    <string name="add_member">Add Members </string>
+    <string name="exit_group">Exit Group</string>
+
+</resources>

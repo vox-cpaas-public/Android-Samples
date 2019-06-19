@@ -1,0 +1,16 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/myFontLight"
+    android:textColor="@color/black"
+    android:gravity="center_vertical"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+/>
+<!--
+    android:background="@color/colorPrimary"
+    android:textColorHint="@color/black"
+    android:textColorHighlight="@color/color_white"
+    -->

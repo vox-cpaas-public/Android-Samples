@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="left|top"
+            android:background="@color/theme_color"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/contact_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/defaultcontact"
+                    app:civ_border_width="0.1dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_12dp"
+                    android:layout_toRightOf="@+id/contact_image"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/contat_name_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_25sp" />
+
+                    <TextView
+                        android:id="@+id/status_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white_60"
+                        android:textSize="@dimen/text_20sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+        <!--<TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Number"
+            android:textColor="@color/color_text"
+            android:paddingLeft="36dp"
+            android:maxLines="1"
+            />-->
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/conversation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:background="@drawable/chat_bg"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/chat_attachments"
+            android:layout_width="@dimen/_60dp"
+            android:layout_height="@dimen/_60dp"
+            android:layout_gravity="bottom">
+
+            <com.cavox.utils.CrossView
+                android:id="@+id/chat_attachments_image"
+                android:layout_width="@dimen/_35dp"
+                android:layout_height="@dimen/_35dp"
+                android:layout_centerInParent="true"
+                app:lineColor="@color/theme_color" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_marginRight="@dimen/_5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:gravity="left|center_vertical"
+                android:hint="Tap to message"
+                android:inputType="textMultiLine|textCapSentences|textShortMessage"
+                android:maxLines="5"
+                android:minLines="2"
+                android:paddingBottom="@dimen/_5dp"
+                android:paddingLeft="@dimen/_10dp"
+                android:paddingTop="@dimen/_5dp"
+                android:scrollbars="vertical"
+                android:textColor="#212121"
+                android:textColorHint="#989898"
+                android:textSize="@dimen/text_20sp" />
+
+            <TextView
+                android:id="@+id/recording_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingBottom="@dimen/_5dp"
+                android:paddingLeft="@dimen/_10dp"
+                android:paddingTop="@dimen/_5dp"
+                android:textColor="@color/header_bg"
+                android:textSize="@dimen/text_20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/record_help_text_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_20dp"
+                android:text="Release to send audio"
+                android:textColor="@color/header_bg"
+                android:visibility="gone"
+                android:textSize="@dimen/text_15sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <RelativeLayout
+                android:id="@+id/chat_send"
+                android:layout_width="@dimen/_60dp"
+                android:layout_height="@dimen/_60dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/purple_circle"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/send"
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_send" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/chat_record"
+                android:layout_width="@dimen/_60dp"
+                android:layout_height="@dimen/_60dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/purple_circle"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="@dimen/_30dp"
+                    android:layout_height="@dimen/_30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_mic_record" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/chat_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/conversation_layout"
+        android:layout_below="@+id/appbarlayout"
+        android:layout_margin="5dp"
+        android:divider="@color/transparent"
+        android:dividerHeight="10dp"></ListView>
+
+    <RelativeLayout
+        android:id="@+id/attachment_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/attachment_menu_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_80dp"
+            android:background="@null"
+            android:visibility="visible">
+
+            <!-- Put more views here if you want, it's stock frame layout  -->
+
+            <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/awesome_card"
+                style="@style/CardView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/_15dp"
+                android:layout_marginLeft="@dimen/_15dp"
+                android:layout_marginRight="@dimen/_15dp"
+                android:elevation="@dimen/_5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/_15dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_10dp"
+                    android:layout_marginRight="@dimen/_10dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="@dimen/_5dp"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:id="@+id/camera_attachment_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/chat_item_selector">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="@dimen/_70dp"
+                                    android:layout_height="@dimen/_70dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/transparent">
+
+                                    <ImageView
+                                        android:id="@+id/camera_iv"
+                                        android:layout_width="@dimen/_55dp"
+                                        android:layout_height="@dimen/_55dp"
+                                        android:layout_centerInParent="true"
+                                        android:background="@drawable/ic_camera" />
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/chat_camera"
+                                    android:textColor="#212121"
+                                    android:textSize="@dimen/text_14sp" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/gallery_attachment_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/chat_item_selector">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="@dimen/_70dp"
+                                    android:layout_height="@dimen/_70dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/transparent">
+
+                                    <ImageView
+                                        android:id="@+id/gallery_iv"
+                                        android:layout_width="@dimen/_55dp"
+                                        android:layout_height="@dimen/_55dp"
+                                        android:layout_centerInParent="true"
+                                        android:background="@drawable/ic_gallery" />
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/chat_gallery"
+                                    android:textColor="#212121"
+                                    android:textSize="@dimen/text_14sp" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/documents_attachment_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/chat_item_selector">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="@dimen/_70dp"
+                                    android:layout_height="@dimen/_70dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/transparent">
+
+                                    <ImageView
+                                        android:id="@+id/documents_iv"
+                                        android:layout_width="@dimen/_55dp"
+                                        android:layout_height="@dimen/_55dp"
+                                        android:layout_centerInParent="true"
+                                        android:background="@drawable/ic_documents" />
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/chat_documents"
+                                    android:textColor="#212121"
+                                    android:textSize="@dimen/text_14sp" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="@dimen/_5dp"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:id="@+id/contact_attachment_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/chat_item_selector">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="@dimen/_70dp"
+                                    android:layout_height="@dimen/_70dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/transparent">
+
+                                    <ImageView
+                                        android:id="@+id/contact_iv"
+                                        android:layout_width="@dimen/_55dp"
+                                        android:layout_height="@dimen/_55dp"
+                                        android:layout_centerInParent="true"
+                                        android:background="@drawable/ic_contacts" />
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/chat_contact"
+                                    android:textColor="#212121"
+                                    android:textSize="@dimen/text_14sp" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/audio_attachment_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/chat_item_selector">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="@dimen/_70dp"
+                                    android:layout_height="@dimen/_70dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/transparent">
+
+                                    <ImageView
+                                        android:id="@+id/audio_iv"
+                                        android:layout_width="@dimen/_55dp"
+                                        android:layout_height="@dimen/_55dp"
+                                        android:layout_centerInParent="true"
+                                        android:background="@drawable/ic_audio" />
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/chat_audio"
+                                    android:textColor="#212121"
+                                    android:textSize="@dimen/text_14sp" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/location_attachment_menu"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/chat_item_selector">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="@dimen/_70dp"
+                                    android:layout_height="@dimen/_70dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/transparent">
+
+                                    <ImageView
+                                        android:id="@+id/location_iv"
+                                        android:layout_width="@dimen/_55dp"
+                                        android:layout_height="@dimen/_55dp"
+                                        android:layout_centerInParent="true"
+                                        android:background="@drawable/location" />
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="@string/chat_location"
+                                    android:textColor="#212121"
+                                    android:textSize="@dimen/text_14sp" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

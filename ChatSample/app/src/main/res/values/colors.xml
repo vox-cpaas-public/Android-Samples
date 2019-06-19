@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimary">#0f7868</color>
+    <color name="colorPrimaryDarkbkp">#303F9F</color>
+    <color name="colorPrimaryDark">#0f7868</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#f4f4f4</color>
+    <color name="color_white">#ffFFFFFF</color>
+    <color name="color_text">#555</color>
+    <color name="black_50">#80000000</color>
+    <color name="black">#161616</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="col_gray_light">#BDBDBD</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="chatbackgroundcolor1">#D5F5E3</color>
+    <color name="chat_unread_color">#2799f3</color>
+    <color name="white">#ffffff</color>
+    <color name="light_grey">#D3D3D3</color>
+
+    <color name="theme_color">#0f7868</color>
+    <color name="login_editext_text_color">#848484</color>
+    <color name="header_bg">#4583ca</color>
+    <color name="black_transperent">#99000000</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="theme_color_lite">#0f7868</color>
+
+</resources>

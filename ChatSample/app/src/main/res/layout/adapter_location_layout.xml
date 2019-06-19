@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat_adapter_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/unread_messages_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40dp"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="#0d000000"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/unread_messages_tv"
+            android:layout_width="@dimen/_150dp"
+            android:layout_height="@dimen/_30dp"
+            android:background="@drawable/chat_message_bg"
+            android:gravity="center"
+            android:text="Unread Messages"
+            android:textColor="#505050"
+            android:textSize="@dimen/text_18sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chat_date_tv"
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="@drawable/date_lable_bg"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_18sp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/receiver_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="@dimen/_5dp"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_50dp"
+        android:background="@drawable/chat_balloon_receive"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/_10dp">
+
+
+
+        <!-- receiver location layout -->
+        <RelativeLayout
+            android:id="@+id/receiver_location_layout"
+            android:layout_width="@dimen/_190dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/receiver_location_image_view"
+                android:layout_width="@dimen/_190dp"
+                android:layout_height="@dimen/_190dp" />
+
+            <TextView
+                android:id="@+id/receiver_location_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/receiver_location_image_view"
+                android:layout_marginLeft="@dimen/_5dp"
+                android:adjustViewBounds="true"
+                android:autoLink="map"
+                android:gravity="left"
+                android:linksClickable="true"
+                android:text="receiver"
+                android:textColor="#505050"
+                android:textSize="@dimen/text_18sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/receiver_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_marginTop="@dimen/_2dp"
+            android:text="12:55pm"
+            android:textColor="#909090"
+            android:textSize="@dimen/text_13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sender_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginBottom="@dimen/_5dp"
+        android:layout_marginLeft="@dimen/_50dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:background="@drawable/chat_balloon_send"
+        android:gravity="center_vertical|right"
+        android:orientation="vertical"
+        android:padding="@dimen/_10dp">
+
+
+        <RelativeLayout
+            android:id="@+id/sender_location_layout"
+            android:layout_width="@dimen/_190dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/sender_location_image_view"
+                android:layout_width="@dimen/_190dp"
+                android:layout_height="@dimen/_190dp" />
+
+            <TextView
+                android:id="@+id/sender_location_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sender_location_image_view"
+                android:adjustViewBounds="true"
+                android:autoLink="map"
+                android:gravity="left"
+                android:linksClickable="true"
+                android:paddingRight="@dimen/_5dp"
+                android:text="sender"
+                android:textColor="#505050"
+                android:textSize="@dimen/text_18sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_5dp"
+            android:layout_marginTop="@dimen/_2dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sender_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="12:55pm"
+                android:textColor="#505050"
+                android:textSize="@dimen/text_13sp" />
+
+            <ImageView
+                android:id="@+id/sender_message_status"
+                android:layout_width="@dimen/_17dp"
+                android:layout_height="@dimen/_17dp"
+                android:layout_marginLeft="@dimen/_2dp"
+                android:background="@drawable/ic_msg_sent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

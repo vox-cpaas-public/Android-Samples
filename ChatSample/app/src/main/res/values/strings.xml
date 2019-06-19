@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ChatSample</string>
+    <string name="activation">Activation</string>
+    <string name="activation_string">Please enter the activation code sent to your phone</string>
+    <string name="your_phone">Your Phone</string>
+    <string name="string_continue">Continue</string>
+    <string name="code">+91</string>
+    <string name="phone_number">Phone Number*</string>
+    <string name="signup">Sign Up</string>
+    <string name="country">Country(+91)</string>
+    <string name="setup">Setup</string>
+    <string name="ConnectSDK">ConnectSDK</string>
+    <!--SignUp screen-->
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="error_empty_number">Please enter a valid number</string>
+    <string name="user_alert_dialog_tittle">Confirmation</string>
+    <string name="user_alert_confirm_message">A verification code will be sent by SMS to this Number </string>
+    <string name="network_error_message">NetworkError</string>
+    <string name="network_unavailable_message">Network Unavailable</string>
+    <string name="initialization_failure_message">Initialization Failure</string>
+    <string name="sign_up_failure">SignUp Failure</string>
+
+    <!--Activation screen-->
+    <string name="error_empty_otp">Please enter OTP</string>
+    <string name="login_success_message">Login Success</string>
+    <string name="login_failure_message">Login Failure</string>
+    <string name="say_something">say something..</string>
+
+    <!-- Chat Strings -->
+    <string name="chat_camera">Camera</string>
+    <string name="chat_gallery">Gallery</string>
+    <string name="chat_documents">Documents</string>
+    <string name="chat_contact">Contact</string>
+    <string name="chat_audio">Audio</string>
+    <string name="chat_location">Location</string>
+    <string name="remove">Remove Photo</string>
+
+    <string name="record_help_text">Hold to record, release to send</string>
+    <string name="chat_screen_audio_start_message">Recording Started</string>
+    <string name="send_location">Send Location</string>
+    <string name="location_not_found">Location not found</string>
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="location_settings">Location settings</string>
+    <string name="gps_not_enable">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="install_file_manager">Please install a File Manager.</string>
+    <string name="wrong_document">Select document type</string>
+    <string name="select_file">Select a File to Upload</string>
+    <string name="media_not_available">Media not available</string>
+    <string name="media_player_nt_available">No Application found</string>
+    <string name="chat_screen_today_message">Today</string>
+    <string name="chat_screen_yesterday_message">Yesterday</string>
+    <string name="want_to_delete">Are you sure you want to delete selected messages?</string>
+    <string name="delete_cap">DELETE</string>
+    <string name="cancel_cap">CANCEL</string>
+</resources>

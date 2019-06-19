@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_black"
+        android:id="@+id/blankscreen"
+        >
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:id="@+id/mainscreen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/header_relative"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:background="@color/theme_color" >
+        </LinearLayout>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/avathar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            card_view:civ_border_width="0.1dp"
+            android:src="@drawable/defaultcontact" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/relativeLayoutb"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/relativeLayout"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="37dp">
+
+            <ImageView
+                android:textColor="@color/white"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/callbutton"
+                android:background="@drawable/uiendcall1"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/textView19"/>
+
+            <TextView
+
+                android:textColor="@color/black_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disconnected..Reconnecting again.."
+                android:id="@+id/textView19"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_above="@+id/relativeLayout"
+            android:id="@+id/view1"/>
+
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp"
+            android:id="@+id/relativeLayout2">
+
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ui_hold_normal"
+                android:id="@+id/hold"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/view11"
+                android:layout_toEndOf="@+id/view11" />
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ui_keypad_normal"
+                android:id="@+id/dialpad"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/view11"
+                android:layout_toStartOf="@+id/view11" />
+            <View
+
+                android:layout_width="20dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/view11"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ui_mute_normal"
+                android:id="@+id/mute"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/dialpad"
+                android:layout_toStartOf="@+id/dialpad" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/uispeaker_icon_norm"
+                android:id="@+id/speaker"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/hold"
+                android:layout_toEndOf="@+id/hold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView17"
+            style="@style/myFontLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_25sp" />
+
+        <TextView
+            android:id="@+id/contact_number_tv"
+            style="@style/myFontLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_10dp"
+            android:text=""
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:gravity="center"
+            android:textColor="@color/black_50"
+            android:textSize="@dimen/text_20sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            style="@style/myFontLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contact_number_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:text="Calling.."
+            android:textColor="@color/black_50"
+            android:textSize="@dimen/text_18sp" />
+    </RelativeLayout>
+</RelativeLayout>

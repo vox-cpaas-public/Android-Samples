@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginSelectionActivity">
+
+
+    <TextView
+        android:layout_width="@dimen/_300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext1"
+        android:gravity="center"
+        android:padding="@dimen/_15dp"
+        android:text="SignUp"
+        android:onClick="OpenSignUpScreen"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_25sp" />
+
+    <TextView
+        android:layout_width="@dimen/_300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20dp"
+        android:background="@drawable/rounded_edittext1"
+        android:gravity="center"
+        android:padding="@dimen/_15dp"
+        android:text="Login"
+        android:onClick="OpenLoginScreen"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_25sp" />
+
+</LinearLayout>

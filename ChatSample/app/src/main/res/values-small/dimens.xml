@@ -1,0 +1,93 @@
+<!--
+  ~ Copyright (c) 2017 Voxvalley, http://voxvalley.com/
+  ~ All Right Reserved,
+  ~  <p>
+  ~ NOTICE:  All information contained herein is, and remains the property of
+  ~ Voxvalley and its suppliers, if any.
+  ~
+  -->
+
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Scaled pixel sizes for text view -->
+    <dimen name="text_3sp">2sp</dimen>
+    <dimen name="text_6sp">4sp</dimen>
+    <dimen name="text_7sp">4sp</dimen>
+    <dimen name="text_8sp">5sp</dimen>
+    <dimen name="text_9sp">6sp</dimen>
+    <dimen name="text_10sp">7sp</dimen>
+    <dimen name="text_11sp">8sp</dimen>
+    <dimen name="text_12sp">8sp</dimen>
+    <dimen name="text_13sp">9sp</dimen>
+    <dimen name="text_14sp">10sp</dimen>
+    <dimen name="text_15sp">10sp</dimen>
+    <dimen name="text_16sp">11sp</dimen>
+    <dimen name="text_17sp">12sp</dimen>
+    <dimen name="text_18sp">13sp</dimen>
+    <dimen name="text_19sp">14sp</dimen>
+    <dimen name="text_20sp">15sp</dimen>
+    <dimen name="text_21sp">16sp</dimen>
+    <dimen name="text_22sp">17sp</dimen>
+    <dimen name="text_23sp">18sp</dimen>
+    <dimen name="text_24sp">19sp</dimen>
+    <dimen name="text_25sp">20sp</dimen>
+    <dimen name="text_30sp">24sp</dimen>
+    <dimen name="text_35sp">30sp</dimen>
+
+    <!-- All layouts dimensions -->
+    <dimen name="_1dp">1dp</dimen>
+    <dimen name="_2dp">1.5dp</dimen>
+    <dimen name="_3dp">2dp</dimen>
+    <dimen name="_5dp">3dp</dimen>
+    <dimen name="_7dp">4dp</dimen>
+    <dimen name="_8dp">5dp</dimen>
+    <dimen name="_10dp">7dp</dimen>
+    <dimen name="_14dp">9dp</dimen>
+    <dimen name="_15dp">10dp</dimen>
+    <dimen name="_17dp">11dp</dimen>
+    <dimen name="_20dp">14dp</dimen>
+    <dimen name="_22dp">16dp</dimen>
+    <dimen name="_25dp">18dp</dimen>
+    <dimen name="_27dp">20dp</dimen>
+    <dimen name="_30dp">22dp</dimen>
+    <dimen name="_33dp">23dp</dimen>
+    <dimen name="_35dp">26dp</dimen>
+    <dimen name="_40dp">30dp</dimen>
+    <dimen name="_45dp">32dp</dimen>
+    <dimen name="_50dp">35dp</dimen>
+    <dimen name="_53dp">40dp</dimen>
+    <dimen name="_55dp">42dp</dimen>
+    <dimen name="_60dp">45dp</dimen>
+    <dimen name="_65dp">50dp</dimen>
+    <dimen name="_70dp">55dp</dimen>
+    <dimen name="_75dp">58dp</dimen>
+    <dimen name="_80dp">60dp</dimen>
+    <dimen name="_85dp">62dp</dimen>
+    <dimen name="_90dp">65dp</dimen>
+    <dimen name="_100dp">75dp</dimen>
+    <dimen name="_110dp">80dp</dimen>
+    <dimen name="_115dp">82dp</dimen>
+    <dimen name="_120dp">85dp</dimen>
+    <dimen name="_130dp">90dp</dimen>
+    <dimen name="_140dp">95dp</dimen>
+    <dimen name="_150dp">100dp</dimen>
+    <dimen name="_160dp">105dp</dimen>
+    <dimen name="_170dp">110dp</dimen>
+    <dimen name="_175dp">115dp</dimen>
+    <dimen name="_180dp">120dp</dimen>
+    <dimen name="_190dp">130dp</dimen>
+    <dimen name="_200dp">140dp</dimen>
+    <dimen name="_205dp">150dp</dimen>
+    <dimen name="_220dp">160dp</dimen>
+    <dimen name="_230dp">170dp</dimen>
+    <dimen name="_240dp">180dp</dimen>
+    <dimen name="_250dp">185dp</dimen>
+    <dimen name="_280dp">190dp</dimen>
+    <dimen name="_290dp">195dp</dimen>
+    <dimen name="_300dp">200dp</dimen>
+    <dimen name="_350dp">230dp</dimen>
+    <dimen name="_400dp">300dp</dimen>
+
+</resources>

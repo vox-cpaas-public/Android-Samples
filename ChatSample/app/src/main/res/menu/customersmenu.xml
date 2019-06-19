@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+   >
+ <!--
+  <item
+      android:id="@+id/menu_search"
+      android:title="Search"
+      android:icon="@drawable/searchnew"
+      android:actionMenuTextColor="#fff"
+      appcompat:showAsAction="never"
+      appcompat:iconTint="@color/white"
+      appcompat:actionViewClass="android.support.v7.widget.SearchView"
+      />
+  appcompat:actionLayout="@layout/layout_menu_search"-->
+ <item
+     android:id="@+id/menu_search"
+     appcompat:showAsAction="never"
+     android:title="Search"
+     />
+ <item
+     android:id="@+id/menu_chat_clear"
+     appcompat:showAsAction="never"
+     android:title="Clear chat"
+     />
+
+ <!--
+ <item
+     android:id="@+id/audiocall"
+     appcompat:showAsAction="always"
+     android:icon="@drawable/menuaudiocall"
+     android:title="AudioCall"
+     />
+ <item
+     android:id="@+id/videocall"
+     appcompat:showAsAction="always"
+     android:icon="@drawable/menuvideocall"
+     android:title="VideoCall"
+     />
+ -->
+
+ <!--<item android:id="@+id/newchat" android:title="New Chat"/>-->
+</menu>

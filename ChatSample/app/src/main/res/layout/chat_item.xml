@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/unReadMessageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/color_white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unReadMessageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edittext1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text=""
+        android:textColor="@color/color_white"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/tempview"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignParentRight="true" />
+    <!-- <RelativeLayout
+        android:id="@+id/sent_imagelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tempview"
+        android:layout_below="@+id/dateView"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/rounded_corner"
+        android:visibility="visible" >
+        <ImageView
+            android:text=""
+            android:id="@+id/sent_imageview"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:gravity="center"
+            android:textColor="@color/black_50"
+            android:layout_marginBottom="4dp" />
+        </RelativeLayout>
+    -->
+    <RelativeLayout
+        android:id="@+id/send_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateView"
+        android:layout_marginLeft="100dp"
+        android:layout_toLeftOf="@+id/tempview"
+        android:background="@drawable/rounded_corner"
+        android:visibility="visible">
+        <!--<ImageView
+            android:text=""
+            android:id="@+id/recv_imageview"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:gravity="center"
+            android:textColor="@color/black_50"
+            android:layout_marginBottom="4dp" />-->
+        <TextView
+
+            android:id="@+id/chat_send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sent_icon"
+            android:layout_marginBottom="4dp"
+            android:layout_toLeftOf="@+id/sent_icon"
+            android:layout_toStartOf="@+id/sent_icon"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black_50"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/chat_send_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/sent_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignEnd="@+id/chat_send_text"
+            android:layout_alignRight="@+id/chat_send_text"
+            android:layout_below="@+id/chat_send_text"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/mytick" />
+
+        <ImageView
+            android:id="@+id/delivered_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignEnd="@+id/chat_send_text"
+            android:layout_alignRight="@+id/chat_send_text"
+            android:layout_below="@+id/chat_send_text"
+            android:background="@drawable/mytick" />
+
+        <ImageView
+            android:id="@+id/sent_icon1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignEnd="@+id/chat_send_text"
+            android:layout_alignRight="@+id/chat_send_text"
+            android:layout_below="@+id/chat_send_text"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/mytick1" />
+
+        <ImageView
+            android:id="@+id/delivered_icon1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignEnd="@+id/chat_send_text"
+            android:layout_alignRight="@+id/chat_send_text"
+            android:layout_below="@+id/chat_send_text"
+            android:background="@drawable/mytick1" />
+
+        <ImageView
+            android:id="@+id/failedimage"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignEnd="@+id/chat_send_text"
+            android:layout_alignRight="@+id/chat_send_text"
+            android:layout_below="@+id/chat_send_text"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/message"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <!--
+        <RelativeLayout
+            android:id="@+id/receive_image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/dateView"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/rounded_corner2"
+            android:visibility="visible" >
+            <ImageView
+                android:text=""
+                android:id="@+id/recv_imageview"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:gravity="center"
+                android:textColor="@color/black_50"
+                android:layout_marginBottom="4dp" />
+            </RelativeLayout>
+        -->
+    <RelativeLayout
+        android:id="@+id/receive_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dateView"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/rounded_corner2"
+        android:visibility="visible">
+        <!--<ImageView
+            android:id="@+id/sent_imageview"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:gravity="center"
+            android:textColor="@color/black_50"
+            android:layout_marginBottom="4dp" />-->
+        <TextView
+            android:id="@+id/chat_receive_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/chat_receive_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/chat_receive_text"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black_50"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</RelativeLayout>

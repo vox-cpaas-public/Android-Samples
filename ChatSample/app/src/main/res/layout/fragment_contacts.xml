@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c5c4c4"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/transparent"
+        android:fastScrollEnabled="true"
+        android:background="@color/background"
+        android:layout_below="@+id/contact_search_layout"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/contact_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@color/background">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/contacts_search_cancel_img"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/customdrawable_search"
+            android:hint="Search Contacts"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black_50"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/contacts_search_cancel_img"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_search_clear"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no_contact_found_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="No Contacts"
+        android:visibility="gone"
+        android:textColor="@color/black_50" />
+</RelativeLayout>

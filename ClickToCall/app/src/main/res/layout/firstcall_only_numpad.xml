@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+   android:background="@color/black_10"
+    >
+
+    <RelativeLayout
+
+        android:paddingTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/lcdscreen">
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/editText1"
+            android:inputType="phone"
+            android:background="@drawable/firstcall_rounded_edittext_dialnumber"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:cursorVisible="true"
+
+            android:textCursorDrawable="@null"
+            android:focusable="true"
+            android:ems="10"
+            android:textSize="18dp"
+            android:textColorHint="@color/black"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/imageView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/imageView5"
+            android:layout_toStartOf="@+id/imageView5">
+        </EditText>
+        <ImageView
+            android:background="@drawable/ui_dtmf_back_button"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+
+            android:id="@+id/imageView5"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <View
+            android:id="@+id/vieew"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TableLayout
+        android:layout_above="@+id/button6"
+        android:layout_below="@+id/lcdscreen"
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="1"
+                android:textSize="30dp"
+
+                android:gravity="center"
+
+                android:id="@+id/imageButton_dialpad_1"
+                android:height="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="2"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:id="@+id/imageButton_dialpad_2"
+
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="3"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:id="@+id/imageButton_dialpad_3"
+
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="4"
+                android:textSize="30dp"
+                android:gravity="center"
+
+
+                android:id="@+id/imageButton_dialpad_4"
+                android:height="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="5"
+                android:gravity="center"
+                android:textSize="30dp"
+
+
+                android:id="@+id/imageButton_dialpad_5"
+
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="6"
+                android:textSize="30dp"
+                android:gravity="center"
+
+
+                android:id="@+id/imageButton_dialpad_6"
+
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="7"
+                android:textSize="30dp"
+                android:gravity="center"
+
+                android:id="@+id/imageButton_dialpad_7"
+                android:height="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="8"
+                android:textSize="30dp"
+                android:gravity="center"
+
+                android:id="@+id/imageButton_dialpad_8"
+
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="9"
+                android:textSize="30dp"
+                android:gravity="center"
+
+                android:id="@+id/imageButton_dialpad_9"
+
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="*"
+                android:textSize="30dp"
+                android:gravity="center"
+
+                android:id="@+id/imageButton_dialpad_plus"
+                android:height="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="0"
+                android:textSize="30dp"
+                android:gravity="center"
+
+                android:id="@+id/imageButton_dialpad_0"
+
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:background="@drawable/firstcall_dialpad_button_selector1"
+                android:textColor="@color/black"
+                android:text="#"
+                android:textSize="30dp"
+                android:gravity="center"
+
+                android:id="@+id/imageButton_dialpad_hash"
+
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+
+        android:layout_width="20dp"
+        android:layout_height="5dp"
+        android:id="@+id/view7"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/view6" />
+
+    <Button
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:text="End Call"
+        android:background="@color/theme_color"
+        android:id="@+id/button6"
+        android:layout_alignBottom="@+id/view7"
+        android:layout_toLeftOf="@+id/view7"
+        android:layout_toStartOf="@+id/view7" />
+
+
+
+    <Button
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/black_30"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:text="Hide Keyboard"
+        android:id="@+id/button7"
+        android:layout_alignBottom="@+id/view7"
+        android:layout_toRightOf="@+id/view7"
+        android:layout_toEndOf="@+id/view7" />
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/view6"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/sign_up_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+    <TextView
+        android:id="@+id/sign_up_button_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:layout_above="@+id/sign_up_button_tv"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="PSTN Call"
+        android:textColor="@color/color_white"
+        android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/sign_up_button_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Audio Call"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sign_up_button_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/sign_up_button_tv"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Video Call"
+        android:textColor="@color/color_white"
+        android:textSize="16sp" />
+
+
+
+    </RelativeLayout>

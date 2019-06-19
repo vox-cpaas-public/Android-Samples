@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    tools:context=".ContactViewActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="left|top"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/contact_details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbarlayout"
+        android:layout_marginTop="@dimen/_30dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_25dp">
+
+        <ImageView
+            android:layout_width="@dimen/_65dp"
+            android:layout_height="@dimen/_65dp"
+            android:src="@drawable/defaultcontact" />
+
+        <TextView
+            android:id="@+id/contact_view_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30dp"
+            android:gravity="center_vertical"
+            android:text="zkjhfidausvh"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contact_create_options_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_details_layout"
+        android:layout_marginTop="@dimen/_30dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_10dp"
+        android:paddingLeft="@dimen/_20dp"
+        android:paddingTop="@dimen/_10dp">
+
+        <TextView
+            android:id="@+id/create_new_contact_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10dp"
+            android:background="@drawable/chat_item_selector"
+            android:text="Create New Contact"
+            android:textColor="@color/chat_unread_color"
+            android:textSize="@dimen/text_20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black_50" />
+
+        <TextView
+            android:id="@+id/create_existing_contact_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10dp"
+            android:background="@drawable/chat_item_selector"
+            android:text="Add to Existing Contact"
+            android:textColor="@color/chat_unread_color"
+            android:textSize="@dimen/text_20sp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/contact_view_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/contact_create_options_layout"
+        android:layout_marginTop="@dimen/_30dp"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/_20dp" />
+
+
+</RelativeLayout>

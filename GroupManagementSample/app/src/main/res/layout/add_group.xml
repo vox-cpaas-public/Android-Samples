@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/user_imageLL"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/theme_color"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.ca.views.RoundedImageView
+            android:id="@+id/group_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/add_photo"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_camera_profile_big"
+            android:text="@string/add_photo"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/group_help_text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_12dp"
+            android:drawableLeft="@drawable/ic_camera_profile"
+            android:drawablePadding="@dimen/margin_8dp"
+            android:gravity="center"
+            android:text="@string/group_photo"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/group_name_edt"
+        style="?android:attr/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/user_imageLL"
+        android:layout_margin="@dimen/margin_16dp"
+        android:ems="10"
+        android:hint="Group Name"
+        android:paddingBottom="@dimen/padding_16dp"
+        android:paddingLeft="@dimen/padding_8dp"
+        android:paddingRight="@dimen/padding_8dp"
+        android:paddingTop="@dimen/padding_8dp"
+        android:singleLine="true"
+        android:textColor="@color/color_black"
+
+        android:textColorHint="@color/black_overlay">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/group_status_edt"
+        style="?android:attr/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/group_name_edt"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_16dp"
+        android:layout_marginRight="@dimen/margin_16dp"
+        android:hint="Description"
+        android:paddingBottom="@dimen/padding_16dp"
+        android:paddingLeft="@dimen/padding_8dp"
+        android:paddingRight="@dimen/padding_8dp"
+        android:paddingTop="@dimen/padding_8dp"
+        android:singleLine="true"
+        android:textColor="@color/color_black"
+        android:textColorHint="@color/black_overlay" />
+
+
+    <Button
+        android:id="@+id/button_create_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_status_edt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_32dp"
+        android:background="@drawable/dark_violet_btn_selector"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/done"
+        android:textColor="@color/color_white" />
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <!--todo button-->
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/defaultcontact"
+         />
+
+
+    <TextView
+
+        android:id="@+id/text1"
+        style="@style/myFontLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/imageView6"
+        android:layout_toRightOf="@+id/imageView6"
+        android:gravity="left"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="1dp"
+        android:text=""
+
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_17" />
+
+    <TextView
+
+        android:id="@+id/text2"
+        style="@style/myFontLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_toRightOf="@+id/imageView6"
+        android:gravity="left"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:layout_marginRight="@dimen/_100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text=""
+
+        android:textColor="@color/black_50"
+        android:textSize="@dimen/text_size_12" />
+
+
+</RelativeLayout>

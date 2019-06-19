@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:id="@+id/blank_screen_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_screen_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/background">
+
+        <LinearLayout
+            android:id="@+id/audio_call_header_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"></LinearLayout>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/contact_avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/defaultcontact"
+            card_view:civ_border_width="0.1dp" />
+
+        <RelativeLayout
+            android:id="@+id/end_call_layout"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/audio_call_options_layout"
+            android:layout_marginTop="37dp">
+
+            <ImageView
+                android:id="@+id/end_call_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_above="@+id/audio_call_reconnecting_tv"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/uiendcall1"
+                android:textColor="@color/color_white" />
+
+            <TextView
+                android:id="@+id/audio_call_reconnecting_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Disconnected..Reconnecting again.."
+                android:textColor="@color/black_50" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/audio_call_options_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/audio_call_status_tv"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:id="@+id/audio_call_mute_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/audio_call_hold_img"
+                android:layout_toLeftOf="@+id/audio_call_hold_img"
+                android:layout_toStartOf="@+id/audio_call_hold_img"
+                android:background="@drawable/ui_mute_normal" />
+
+            <ImageView
+                android:id="@+id/audio_call_hold_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_toLeftOf="@+id/view11"
+                android:layout_toStartOf="@+id/view11"
+                android:background="@drawable/ui_hold_normal"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/audio_call_keypad_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/view11"
+                android:layout_toStartOf="@+id/view11"
+                android:background="@drawable/ui_keypad_normal"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/audio_call_speaker_img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/view11"
+                android:layout_toRightOf="@+id/view11"
+                android:background="@drawable/uispeaker_icon_norm" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/audio_call_contact_info_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="calle"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/audio_call_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/audio_call_contact_info_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Calling.."
+            android:textColor="@color/black_50" />
+    </RelativeLayout>
+</RelativeLayout>

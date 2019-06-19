@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/unread_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dateView"
+            android:background="@drawable/unread_count_bg"
+            android:gravity="center"
+            android:padding="@dimen/_10dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:textSize="@dimen/text_17sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/dateView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:background="@drawable/rounded_edittext1"
+            android:gravity="center"
+
+            android:padding="4dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tempview"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignParentRight="true" />
+
+    <RelativeLayout
+
+        android:id="@+id/receive_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_layout"
+        android:background="@drawable/rounded_corner2"
+        android:visibility="visible">
+
+        <RelativeLayout
+
+            android:id="@+id/audiolayout"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+             >
+
+            <ImageView
+                android:layout_alignParentLeft="true"
+                android:id="@+id/audioplaybutton"
+                android:layout_width="@dimen/_40dp"
+                android:layout_height="@dimen/_40dp"
+                android:src="@drawable/ic_video_play"
+                />
+
+            <ImageView
+                android:layout_alignParentLeft="true"
+                android:id="@+id/audiopausebutton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@mipmap/audiopausebutton"
+                android:visibility="gone"
+                />
+
+            <SeekBar
+                android:clickable="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/audio_seekBar"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/audioplaybutton"
+                />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:id="@+id/audiolength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/audio_seekBar"
+                android:layout_toEndOf="@+id/audio_seekBar"
+
+                android:text="00:00"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+            <TextView
+
+                android:id="@+id/audioimagetext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/audioplaybutton"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text=","
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_18sp" />
+
+            <TextView
+                android:id="@+id/audio_chat_receive_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/audioimagetext"
+                android:layout_below="@+id/audioimagetext"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="5dp"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@color/black_50"
+                android:textSize="@dimen/text_14sp" />
+
+
+            <RelativeLayout
+
+                android:id="@+id/audio_uploaddownloadlayout"
+                android:layout_below="@+id/audioimagetext"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_alignLeft="@+id/send_layout"
+                android:background="@drawable/rounded_corners_chat_fsz"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/audio_uploaddownloadimage"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@mipmap/newdownloadimage"
+                    android:visibility="visible" />
+                <ImageView
+                    android:id="@+id/audiouploaddownloadcloseimage"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:padding="4dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@mipmap/chat_close"
+                    android:visibility="gone" />
+                <com.github.lzyzsd.circleprogress.DonutProgress
+                    android:id="@+id/audio_progressBar"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+
+                    android:layout_margin="2dp"
+                    custom:donut_finished_color="@color/colorAccent"
+                    custom:donut_text_color="@color/colorAccent"
+
+                    custom:donut_finished_stroke_width="1dp"
+                    custom:donut_text_size="0sp"
+                    custom:donut_progress="0"
+                    custom:donut_unfinished_stroke_width="1dp" />
+
+                <TextView
+                    android:id="@+id/audio_filesize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/audio_progressBar"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="4dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/receive_image_layout"
+            android:layout_width="@dimen/_280dp"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+
+                android:layout_alignParentLeft="true"
+                android:id="@+id/sender_document_img"
+                android:layout_width="@dimen/_40dp"
+                android:layout_height="@dimen/_40dp"
+                android:padding="@dimen/_5dp"
+                android:src="@drawable/ic_document" />
+
+            <ImageView
+
+                android:id="@+id/recv_imageview"
+                android:layout_width="@dimen/_250dp"
+                android:layout_height="@dimen/_250dp"
+                android:layout_margin="@dimen/_5dp"
+                android:padding="2dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imageplaceholder"
+                />
+
+
+            <ImageView
+
+                android:id="@+id/video_play_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/ic_video_play"
+                />
+
+
+
+            <TextView
+
+                android:id="@+id/recvimagetext"
+                android:layout_width="@dimen/_250dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/sender_document_img"
+                android:layout_below="@+id/recv_imageview"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_18sp" />
+
+            <TextView
+                android:id="@+id/chat_receive_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/recvimagetext"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="10dp"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@color/black_50"
+                android:textSize="@dimen/text_14sp" />
+
+
+            <RelativeLayout
+
+                android:id="@+id/uploaddownloadlayout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/chat_receive_time"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/rounded_corners_chat_fsz"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/uploaddownloadimage"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@mipmap/newdownloadimage"
+                    android:visibility="visible" />
+                <ImageView
+                    android:id="@+id/uploaddownloadcloseimage"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:padding="4dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@mipmap/chat_close"
+                    android:visibility="gone" />
+
+                <com.github.lzyzsd.circleprogress.DonutProgress
+                    android:id="@+id/progressBar"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+
+                    android:visibility="visible"
+
+                    android:layout_margin="2dp"
+                    custom:donut_finished_color="@color/colorAccent"
+                    custom:donut_text_color="@color/colorAccent"
+
+                    custom:donut_finished_stroke_width="1dp"
+                    custom:donut_text_size="0sp"
+                    custom:donut_progress="0"
+                    custom:donut_unfinished_stroke_width="1dp" />
+
+                <TextView
+                    android:id="@+id/filesize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/progressBar"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="4dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="6sp" />
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

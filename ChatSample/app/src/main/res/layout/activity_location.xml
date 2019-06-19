@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:id="@+id/mainLL"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_gravity="left|top" />
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+    <fragment
+        android:layout_below="@+id/appbarlayout"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment">
+        <ImageView
+            android:id="@+id/pin"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/pin" />
+    </fragment>
+
+
+    <RelativeLayout
+        android:layout_below="@+id/appbarlayout"
+        android:id="@+id/rlvvv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <View
+            android:id="@+id/centerview"
+            android:layout_width="0.1dp"
+            android:layout_height="0.1dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+        </View>
+        <RelativeLayout
+
+            android:clickable="true"
+            android:layout_above="@+id/rlv2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/rlv1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rectangle_shape"
+            >
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorPrimary"
+                android:text="Share this location" />
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textView3"
+                android:maxLines="1"
+                android:text="Address" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rlv2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/arrow_shape"
+            android:rotation="180"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/centerview" />
+    </RelativeLayout>
+</RelativeLayout>

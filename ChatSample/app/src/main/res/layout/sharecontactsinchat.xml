@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/coordinatorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                android:background="@color/theme_color"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:layout_gravity="left|top" />
+
+        </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+    <EditText
+
+        android:textCursorDrawable="@null"
+        android:textColorHint="@color/black_50"
+        android:padding="16dp"
+        android:id="@+id/editText"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:textColor="@color/login_editext_text_color"
+        android:hint="Search Contacts"
+        android:drawableLeft="@drawable/customdrawable_search"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/coordinatorlayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/button_addContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Share Contacts"
+        android:background="@drawable/pink_btn_rounded"
+        android:gravity="center"
+        android:textColor="@color/color_white" />
+
+    <ListView
+
+        android:id="@+id/contact_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:paddingTop="20dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_above="@+id/button_addContacts"
+        android:layout_below="@+id/editText" />
+
+
+</RelativeLayout>

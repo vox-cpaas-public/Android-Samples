@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#f4f4f4</color>
+    <color name="color_white">#ffFFFFFF</color>
+    <color name="color_text">#555</color>
+    <color name="black_50">#80000000</color>
+    <color name="black">#161616</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="col_gray_light">#BDBDBD</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="chatbackgroundcolor1">#D5F5E3</color>
+    <color name="theme_color">#009688</color>
+    <color name="background1">#e6e6e6</color>
+    <color name="color_divider">#cecece</color>
+    <color name="green">#4CAF50</color>
+    <color name="login_editext_text_color">#848484</color>
+    <color name="header_bg">#4583ca</color>
+    <color name="colorPrimarySel">#804E3164</color>
+    <color name="theme_color1">#0f7868</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="col_light">#f4f4f4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_overlay">#66000000</color>
+
+
+
+
+
+
+
+</resources>
