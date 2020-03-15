@@ -421,8 +421,7 @@ public class utils {
                         // if time difference between two incoming calls is less than 50sec then only it will process the incoming call
                         if (timedifference < 50) {
 
-if(true) {
-  //                          if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q && new App().getActivityStackCount()<=0) {
+                         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q && new App().getActivityStackCount()<=0) {
                                 showCallSensitiveNotofication(secondcall,false,sDstMobNu,callactive,callType,srcnumber,callid,callstarttime);
                             } else {
                                 Intent intent1;
@@ -460,15 +459,15 @@ if(true) {
         String title = "Incoming "+callType+" call";
 
 
-
+String name = srcnumber;
         Cursor ccfr = CSDataProvider.getContactCursorByNumber(srcnumber);
         if (ccfr.getCount() > 0) {
             ccfr.moveToNext();
-            srcnumber = ccfr.getString(ccfr.getColumnIndexOrThrow(CSDbFields.KEY_CONTACT_NAME));
+            name = ccfr.getString(ccfr.getColumnIndexOrThrow(CSDbFields.KEY_CONTACT_NAME));
         }
         ccfr.close();
 
-        Intent intent1 = new Intent(MainActivity.context.getApplicationContext(), CallScreenActivity.class);
+        Intent intent1 = new Intent(MainActivity.context, CallScreenActivity.class);
         intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent1.putExtra("secondcall", secondcall);
         intent1.putExtra("isinitiatior", false);
@@ -503,7 +502,7 @@ if(true) {
                         .setSound(uri)
                         .setSmallIcon(R.drawable.app_icon)
                         .setContentTitle(title)
-                        .setContentText(srcnumber)
+                        .setContentText(name)
                         .setPriority(NotificationCompat.PRIORITY_MAX)
                         .setCategory(NotificationCompat.CATEGORY_CALL)
                         .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
@@ -511,7 +510,8 @@ if(true) {
                         .setAutoCancel(false)
                         //.addAction(R.drawable.uiendcall1, "Decline", endCallIntent)
                         //.addAction(R.drawable.ui_answer_call, "Answer", answerCallIntent)//getPendingIntent(Constants.ACCEPT_CALL,callId,callType,number)) //getPendingIntent(Constants.ACCEPT_CALL,callId,callType))
-                        .setDeleteIntent(pIntent) //onDismissPendingIntent)
+                        //.setDeleteIntent(pIntent) //onDismissPendingIntent)
+                        .setContentIntent(pIntent)
                         .setFullScreenIntent(pIntent, true);
         Notification incomingCallNotification = notificationBuilder.build();
         NotificationManager notificationManager = (NotificationManager) MainActivity.context.getSystemService(Context.NOTIFICATION_SERVICE);

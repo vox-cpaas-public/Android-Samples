@@ -245,6 +245,8 @@ public class CallScreenActivity extends AppCompatActivity {
 
             // if incoming call callType equal to video it will call endVideoCall API
             // if incoming call callType equal to audio it will call endVoiceCall API
+            System.out.println("Call end callid:"+callid);
+            System.out.println("Call end srcnumber:"+srcnumber);
             if (callType.equals("video")) {
                 CSCallObj.endVideoCall(srcnumber, callid, CSConstants.E_UserBusy, CSConstants.UserBusy);
             } else {

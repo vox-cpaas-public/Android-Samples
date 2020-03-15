@@ -1,0 +1,362 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ca.loginsample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:11:5-13:47
+12        android:name="com.ca.loginsample.MYPERMISSION"
+12-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:12:9-53
+13        android:protectionLevel="signature" />
+13-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:13:9-44
+14
+15    <uses-permission android:name="com.ca.loginsample.MYPERMISSION" />
+15-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:15:5-69
+15-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:15:22-66
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:16:5-67
+16-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:16:22-64
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:17:5-81
+17-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:17:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:18:5-80
+18-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:18:22-77
+19    <uses-permission android:name="android.permission.READ_CONTACTS" />
+19-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:19:5-72
+19-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:19:22-69
+20    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+20-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:20:5-79
+20-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:20:22-76
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:21:5-79
+21-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:21:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:22:5-76
+22-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:22:22-73
+23    <!--
+24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+26    -->
+27    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+27-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:28:5-71
+27-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:28:22-68
+28    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+28-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:29:5-80
+28-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:29:22-77
+29    <uses-permission android:name="android.permission.CAMERA" /> <!-- <uses-permission android:name="android.permission.READ_SMS" /> -->
+29-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:30:5-65
+29-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:30:22-62
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:32:5-68
+30-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:32:22-65
+31    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+31-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:33:5-78
+31-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:33:22-75
+32    <uses-permission android:name="android.permission.BLUETOOTH" />
+32-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:34:5-68
+32-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:34:22-65
+33    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+33-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:35:5-74
+33-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:35:22-71
+34    <!--
+35    <uses-feature android:name="android.hardware.camera" />
+36    <uses-feature android:name="android.hardware.camera.autofocus" />
+37    -->
+38    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+38-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:40:5-75
+38-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:40:22-72
+39    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+39-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:41:5-81
+39-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:41:22-78
+40    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+40-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:42:5-79
+40-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:42:22-76
+41
+42    <uses-feature
+42-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\0a5f28efa68bcfef58d56f8582627618\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+43        android:glEsVersion="0x00020000"
+43-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\0a5f28efa68bcfef58d56f8582627618\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+44        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+44-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\0a5f28efa68bcfef58d56f8582627618\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+45    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+45-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
+45-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
+46
+47    <application
+47-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:6:5-33:19
+48        android:name="com.ca.loginsample.App"
+48-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:7:9-46
+49        android:allowBackup="false"
+49-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:8:9-36
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.0.0] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\8ef0dd1b827b6b28c1e9211227fa2d4c\core-1.0.0\AndroidManifest.xml:22:18-86
+51        android:debuggable="true"
+52        android:icon="@mipmap/ic_launcher"
+52-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:9:9-43
+53        android:label="@string/app_name"
+53-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:10:9-41
+54        android:largeHeap="true"
+54-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:48:9-33
+55        android:roundIcon="@mipmap/ic_launcher_round"
+55-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:11:9-54
+56        android:supportsRtl="true"
+56-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:12:9-35
+57        android:testOnly="true"
+58        android:theme="@style/AppTheme" >
+58-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:13:9-40
+59        <activity
+59-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:15:9-22:20
+60            android:name="com.ca.loginsample.SignUpActivity"
+60-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:16:13-43
+61            android:screenOrientation="portrait" >
+61-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:17:13-49
+62            <intent-filter>
+62-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:18:13-21:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:19:17-69
+63-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:19:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:20:17-77
+65-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:20:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:25:9-29:51
+69            android:name="com.ca.loginsample.ActivationActivity"
+69-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:26:13-65
+70            android:configChanges="keyboardHidden|orientation|screenSize"
+70-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:27:13-74
+71            android:exported="false"
+71-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:28:13-37
+72            android:screenOrientation="portrait" />
+72-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:29:13-49
+73        <activity
+73-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:30:9-32:51
+74            android:name="com.ca.loginsample.AboutActivity"
+74-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:31:13-42
+75            android:screenOrientation="portrait" />
+75-->D:\Sample Apps\SignUpSample\app\src\main\AndroidManifest.xml:32:13-49
+76
+77        <provider
+77-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:49:9-52:40
+78            android:name="com.cacore.db.IAmLiveDataProvider"
+78-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:50:13-61
+79            android:authorities="com.ca.loginsample"
+79-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:51:13-51
+80            android:exported="false" /> <!-- android:permission="${applicationId}.MYPERMISSION" -->
+80-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:52:13-37
+81        <service
+81-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:54:9-57:66
+82            android:name="com.cacore.services.CACommonService"
+82-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:55:13-63
+83            android:exported="false"
+83-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:56:13-37
+84            android:permission="com.ca.loginsample.MYPERMISSION" />
+84-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:57:13-63
+85        <service
+85-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:58:9-62:66
+86            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+86-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:59:13-93
+87            android:enabled="true"
+87-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:60:13-35
+88            android:exported="false"
+88-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:61:13-37
+89            android:permission="com.ca.loginsample.MYPERMISSION" />
+89-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:62:13-63
+90        <!--
+91        <service
+92            android:name="com.example.services.MyFirebaseMessagingService">
+93            <intent-filter>
+94                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+95            </intent-filter>
+96        </service>
+97        <service
+98            android:name="com.example.services.MyFirebaseInstanceIDService">
+99            <intent-filter>
+100                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+101            </intent-filter>
+102        </service>
+103        -->
+104        <!--
+105        <receiver android:permission="${applicationId}.MYPERMISSION"
+106            android:name="com.example.receivers.RestartSlaveService"
+107            android:exported="false">
+108            <intent-filter>
+109                <action
+110                    android:name="com.ca.iamliverestartservice"
+111                     />
+112                <action android:name="android.intent.action.BOOT_COMPLETED" />
+113            </intent-filter>
+114        </receiver>
+115
+116        <receiver android:permission="${applicationId}.MYPERMISSION"
+117            android:name="com.example.receivers.AwsDownloadStatusReceiver"
+118            android:exported="false">
+119            <intent-filter>
+120                <action
+121                    android:name="AwsDownloadStatusReceiver"
+122                     />
+123            </intent-filter>
+124        </receiver>
+125        -->
+126        <receiver
+126-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:103:9-110:20
+127            android:name="com.cacore.receivers.MyReceiver"
+127-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:104:13-59
+128            android:exported="false"
+128-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:105:13-37
+129            android:permission="com.ca.loginsample.MYPERMISSION" >
+129-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:106:13-63
+130            <intent-filter>
+130-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:107:13-109:29
+131                <action android:name="MyReceiver" />
+131-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:108:17-53
+131-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:108:25-50
+132            </intent-filter>
+133        </receiver>
+134        <receiver
+134-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:111:9-119:20
+135            android:name="com.cacore.receivers.TimeChangeedReceiver"
+135-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:112:13-69
+136            android:exported="false"
+136-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:113:13-37
+137            android:permission="com.ca.loginsample.MYPERMISSION" >
+137-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:114:13-63
+138            <intent-filter>
+138-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:115:13-118:29
+139                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+139-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:116:17-81
+139-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:116:25-78
+140                <action android:name="android.intent.action.TIME_SET" />
+140-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:117:17-73
+140-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:117:25-70
+141            </intent-filter>
+142        </receiver>
+143        <receiver
+143-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:120:9-129:20
+144            android:name="com.cacore.receivers.NWMonitor"
+144-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:121:13-58
+145            android:exported="false"
+145-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:122:13-37
+146            android:permission="com.ca.loginsample.MYPERMISSION" >
+146-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:123:13-63
+147            <intent-filter>
+147-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:124:13-128:29
+148
+149                <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/> -->
+150                <action android:name="com.ca.iamlivenetworkerror" />
+150-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:127:17-69
+150-->[vox-cpaas:connectsdk:1.4.2.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\4e17ce565b0d4c6f4728f23025bacd85\connectsdk-1.4.2.3\AndroidManifest.xml:127:25-66
+151            </intent-filter>
+152        </receiver>
+153        <!--
+154             FirebaseMessagingService performs security checks at runtime,
+155             no need for explicit permissions despite exported="true"
+156        -->
+157        <service
+157-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\ea5f539eb8e8cdd2fd026c81d34a34d0\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+158            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+158-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\ea5f539eb8e8cdd2fd026c81d34a34d0\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+159            android:exported="true" >
+159-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\ea5f539eb8e8cdd2fd026c81d34a34d0\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+160            <intent-filter android:priority="-500" >
+160-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\ea5f539eb8e8cdd2fd026c81d34a34d0\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:31:13-33:29
+160-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\ea5f539eb8e8cdd2fd026c81d34a34d0\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:31:28-51
+161                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+161-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\ea5f539eb8e8cdd2fd026c81d34a34d0\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:32:17-78
+161-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\ea5f539eb8e8cdd2fd026c81d34a34d0\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:32:25-75
+162            </intent-filter>
+163        </service> <!-- Needs to be explicitly declared on P+ -->
+164        <uses-library
+164-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\0a5f28efa68bcfef58d56f8582627618\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+165            android:name="org.apache.http.legacy"
+165-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\0a5f28efa68bcfef58d56f8582627618\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+166            android:required="false" />
+166-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\0a5f28efa68bcfef58d56f8582627618\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+167
+168        <service
+168-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:29:9-35:19
+169            android:name="com.google.firebase.components.ComponentDiscoveryService"
+169-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:30:13-84
+170            android:exported="false" >
+170-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
+171            <meta-data
+171-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
+172                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+172-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
+174        </service>
+175
+176        <receiver
+176-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+177            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+177-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+178            android:exported="true"
+178-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+179            android:permission="com.google.android.c2dm.permission.SEND" >
+179-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+180            <intent-filter>
+180-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+181                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+181-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
+181-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
+182            </intent-filter>
+183        </receiver>
+184        <!--
+185             FirebaseInstanceIdService performs security checks at runtime,
+186             no need for explicit permissions despite exported="true"
+187        -->
+188        <service
+188-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+189            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+189-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+190            android:exported="true" >
+190-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+191            <intent-filter android:priority="-500" >
+191-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:13-55:29
+191-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:28-51
+192                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+192-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:17-80
+192-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\69d7de4635fd6e9b69ac26082e859c88\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:25-77
+193            </intent-filter>
+194        </service>
+195
+196        <provider
+196-->[com.google.firebase:firebase-common:16.0.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\1a61893fd337356076d146217041ada5\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+197            android:name="com.google.firebase.provider.FirebaseInitProvider"
+197-->[com.google.firebase:firebase-common:16.0.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\1a61893fd337356076d146217041ada5\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+198            android:authorities="com.ca.loginsample.firebaseinitprovider"
+198-->[com.google.firebase:firebase-common:16.0.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\1a61893fd337356076d146217041ada5\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+199            android:exported="false"
+199-->[com.google.firebase:firebase-common:16.0.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\1a61893fd337356076d146217041ada5\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+200            android:initOrder="100" />
+200-->[com.google.firebase:firebase-common:16.0.3] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\1a61893fd337356076d146217041ada5\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+201
+202        <activity
+202-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\7c2ebfc627005aa88a50021f8e3ce1a2\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+203            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+203-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\7c2ebfc627005aa88a50021f8e3ce1a2\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\7c2ebfc627005aa88a50021f8e3ce1a2\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\7c2ebfc627005aa88a50021f8e3ce1a2\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+206
+207        <meta-data
+207-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\e512c873308b427b4a15e78217545913\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+208            android:name="com.google.android.gms.version"
+208-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\e512c873308b427b4a15e78217545913\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+209            android:value="@integer/google_play_services_version" />
+209-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\administartor\.gradle\caches\transforms-2\files-2.1\e512c873308b427b4a15e78217545913\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+210    </application>
+211
+212</manifest>
