@@ -1,32 +1,19 @@
 package com.ca.clicktocall;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
-import android.support.multidex.MultiDex;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.LocalBroadcastManager;
+
+import androidx.multidex.MultiDex;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.ca.Utils.CSConstants;
-import com.ca.Utils.CSEvents;
-import com.ca.dao.CSAppDetails;
-import com.ca.wrapper.CSClient;
-import com.ca.wrapper.CSDataProvider;
 
 import java.util.ArrayList;
 

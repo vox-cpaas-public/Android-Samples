@@ -1,12 +1,10 @@
 package com.ca.utils;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -14,6 +12,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -21,17 +20,15 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Looper;
 import android.provider.ContactsContract;
-import android.provider.DocumentsContract;
-import android.provider.MediaStore;
-import android.provider.OpenableColumns;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.content.CursorLoader;
+
+import androidx.core.app.NotificationCompat;
+
 import android.util.Log;
-import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
 import com.ca.Utils.CSConstants;
 import com.ca.Utils.CSDbFields;
+import com.ca.app.App;
 import com.ca.callsample.CallScreenActivity;
 import com.ca.callsample.EmptyActivity;
 import com.ca.callsample.MainActivity;
@@ -40,20 +37,15 @@ import com.ca.callsample.PlayNewVideoCallActivity;
 import com.ca.callsample.R;
 import com.ca.callsample.ShowUserLogActivity;
 import com.ca.receivers.InComingCallHandlingReceiver;
+import com.ca.receivers.InComingCallHandlingReceiverA10;
 import com.ca.receivers.MissedCallNotificationHandler;
-import com.ca.wrapper.CSChat;
 import com.ca.wrapper.CSClient;
 import com.ca.wrapper.CSDataProvider;
 
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.net.InetAddress;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Random;
 
 public class utils {
@@ -118,7 +110,7 @@ public class utils {
      */
     public static int notifyCallMissed(Context context, String number, String name, String callid, String calldirection, String calltime, int reqcode) {
         Random rand = new Random();
-        PrefereceProvider preferenceProvider = new PrefereceProvider(context);
+        PreferenceProvider preferenceProvider = new PreferenceProvider(context);
 
         int notificationid = 0;
         try {
@@ -134,7 +126,7 @@ public class utils {
         }
         //  Log.i(TAG, "notifyCallMissed: " + isNotificationVisible(context, notificationid));
         try {
-            createNotificationChannel(context);
+            createNotificationChannel(context,"Default");
             Log.i(TAG,"I am in notifyCallMissed" + name + " direction " + calldirection);
 
             Intent intent = new Intent(context, MissedCallNotificationHandler.class);
@@ -321,19 +313,20 @@ public class utils {
     }
 
 
-    private static void createNotificationChannel(Context context) {
+    private static void createNotificationChannel(Context context,String channelname) {
         // Create the NotificationChannel, but only on API 26+ because
         // the NotificationChannel class is new and not in the support library
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             CharSequence name = "CallSample";
             String description = "Default Channel";
             int importance = NotificationManager.IMPORTANCE_HIGH;
-            NotificationChannel channel = new NotificationChannel("Default", name, importance);
+            NotificationChannel channel = new NotificationChannel(channelname, name, importance);
             channel.setDescription(description);
             // Register the channel with the system; you can't change the importance
             // or other notification behaviors after this
             NotificationManager notificationManager = context.getSystemService(NotificationManager.class);
             notificationManager.createNotificationChannel(channel);
+            channel.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);
         }
     }
 
@@ -427,18 +420,26 @@ public class utils {
                         long timedifference = (presenttime - callstarttime) / 1000;
                         // if time difference between two incoming calls is less than 50sec then only it will process the incoming call
                         if (timedifference < 50) {
-                            Intent intent1;
-                            intent1 = new Intent(context.getApplicationContext(), CallScreenActivity.class);
-                            intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            intent1.putExtra("secondcall", secondcall);
-                            intent1.putExtra("isinitiatior", false);
-                            intent1.putExtra("sDstMobNu", sDstMobNu);
-                            intent1.putExtra("callactive", callactive);
-                            intent1.putExtra("callType", callType);
-                            intent1.putExtra("srcnumber", srcnumber);
-                            intent1.putExtra("callid", callid);
-                            intent1.putExtra("callstarttime", callstarttime);
-                            context.startActivity(intent1);
+
+if(true) {
+  //                          if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q && new App().getActivityStackCount()<=0) {
+                                showCallSensitiveNotofication(secondcall,false,sDstMobNu,callactive,callType,srcnumber,callid,callstarttime);
+                            } else {
+                                Intent intent1;
+                                intent1 = new Intent(context.getApplicationContext(), CallScreenActivity.class);
+                                intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                intent1.putExtra("secondcall", secondcall);
+                                intent1.putExtra("isinitiatior", false);
+                                intent1.putExtra("sDstMobNu", sDstMobNu);
+                                intent1.putExtra("callactive", callactive);
+                                intent1.putExtra("callType", callType);
+                                intent1.putExtra("srcnumber", srcnumber);
+                                intent1.putExtra("callid", callid);
+                                intent1.putExtra("callstarttime", callstarttime);
+                                context.startActivity(intent1);
+                            }
+
+
                         }
                     } catch (Exception ex) {
                         ex.printStackTrace();
@@ -449,6 +450,79 @@ public class utils {
             ex.printStackTrace();
         }
     }
+
+
+
+    public static void showCallSensitiveNotofication(boolean secondcall,boolean isinitiatior,String sDstMobNu,int callactive,String callType,String srcnumber,String callid,long callstarttime) {
+
+            createNotificationChannel(MainActivity.context,"Android 10 Calls");
+
+        String title = "Incoming "+callType+" call";
+
+
+
+        Cursor ccfr = CSDataProvider.getContactCursorByNumber(srcnumber);
+        if (ccfr.getCount() > 0) {
+            ccfr.moveToNext();
+            srcnumber = ccfr.getString(ccfr.getColumnIndexOrThrow(CSDbFields.KEY_CONTACT_NAME));
+        }
+        ccfr.close();
+
+        Intent intent1 = new Intent(MainActivity.context.getApplicationContext(), CallScreenActivity.class);
+        intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent1.putExtra("secondcall", secondcall);
+        intent1.putExtra("isinitiatior", false);
+        intent1.putExtra("sDstMobNu", sDstMobNu);
+        intent1.putExtra("callactive", callactive);
+        intent1.putExtra("callType", callType);
+        intent1.putExtra("srcnumber", srcnumber);
+        intent1.putExtra("callid", callid);
+        intent1.putExtra("callstarttime", callstarttime);
+        intent1.setAction(Long.toString(System.currentTimeMillis()));
+
+        PendingIntent pIntent = PendingIntent.getActivity(MainActivity.context, 0, intent1, PendingIntent.FLAG_UPDATE_CURRENT);
+        Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_RINGTONE);
+
+
+
+        //PendingIntent pIntent = PendingIntent.getActivity(MainActivity.context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+/*
+        Intent intentAction = new Intent(MainActivity.context, InComingCallHandlingReceiverA10.class);
+        intentAction.setAction("EndCall");
+        PendingIntent endCallIntent = PendingIntent.getBroadcast(MainActivity.context, 1, intentAction, PendingIntent.FLAG_CANCEL_CURRENT);
+
+        Intent intentAction1 = new Intent(MainActivity.context, InComingCallHandlingReceiverA10.class);
+        intentAction1.setAction("AnswerCall");
+        PendingIntent answerCallIntent = PendingIntent.getBroadcast(MainActivity.context, 1, intentAction1, PendingIntent.FLAG_CANCEL_CURRENT);
+*/
+
+
+        NotificationCompat.Builder notificationBuilder =
+                new NotificationCompat.Builder(MainActivity.context)
+                        .setChannelId("Android 10 Calls")
+                        .setSound(uri)
+                        .setSmallIcon(R.drawable.app_icon)
+                        .setContentTitle(title)
+                        .setContentText(srcnumber)
+                        .setPriority(NotificationCompat.PRIORITY_MAX)
+                        .setCategory(NotificationCompat.CATEGORY_CALL)
+                        .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+                        .setDefaults(0)
+                        .setAutoCancel(false)
+                        //.addAction(R.drawable.uiendcall1, "Decline", endCallIntent)
+                        //.addAction(R.drawable.ui_answer_call, "Answer", answerCallIntent)//getPendingIntent(Constants.ACCEPT_CALL,callId,callType,number)) //getPendingIntent(Constants.ACCEPT_CALL,callId,callType))
+                        .setDeleteIntent(pIntent) //onDismissPendingIntent)
+                        .setFullScreenIntent(pIntent, true);
+        Notification incomingCallNotification = notificationBuilder.build();
+        NotificationManager notificationManager = (NotificationManager) MainActivity.context.getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(new Random().nextInt(1000001), incomingCallNotification);
+    }
+
+
+
+
+
+
 
     /**
      * This method will check given date is yesterday or not

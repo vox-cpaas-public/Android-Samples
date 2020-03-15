@@ -8,14 +8,14 @@
     android:focusableInTouchMode="true"
     android:orientation="vertical">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarlayout"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:elevation="0dp">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -71,7 +71,7 @@
                 </LinearLayout>
 
             </RelativeLayout>
-        </android.support.v7.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
         <!--<TextView
             android:id="@+id/subtitle"
             android:layout_width="match_parent"
@@ -82,7 +82,7 @@
             android:paddingLeft="36dp"
             android:maxLines="1"
             />-->
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <LinearLayout
@@ -233,7 +233,7 @@
 
             <!-- Put more views here if you want, it's stock frame layout  -->
 
-            <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+            <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/awesome_card"
                 style="@style/CardView"
                 android:layout_width="match_parent"
@@ -511,7 +511,7 @@
                     </LinearLayout>
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
         </FrameLayout>
     </RelativeLayout>

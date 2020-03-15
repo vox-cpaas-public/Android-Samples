@@ -15,24 +15,24 @@ import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.multidex.MultiDex;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.tabs.TabLayout;
+import androidx.multidex.MultiDex;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.core.content.ContextCompat;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.Toolbar;
 
 import com.ca.Utils.CSDbFields;
 import com.ca.Utils.CSEvents;
@@ -40,7 +40,7 @@ import com.ca.Utils.CSConstants;
 import com.ca.fragments.Contacts;
 import com.ca.fragments.Recents;
 import com.ca.utils.Constants;
-import com.ca.utils.PrefereceProvider;
+import com.ca.utils.PreferenceProvider;
 import com.ca.utils.utils;
 import com.ca.wrapper.CSCall;
 import com.ca.wrapper.CSClient;
@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
         mTabLayout.setupWithViewPager(mViewPager);
         mViewPager.setCurrentItem(2);
         showLogInFailure = true;
-        android.support.v7.widget.Toolbar toolbar =  findViewById(R.id.toolbar);
-        android.support.design.widget.AppBarLayout appBarLayout =  findViewById(R.id.appbarlayout);
+        androidx.appcompat.widget.Toolbar toolbar =  findViewById(R.id.toolbar);
+        AppBarLayout appBarLayout =  findViewById(R.id.appbarlayout);
         setSupportActionBar(toolbar);
         //toolbar.setTitle("Call sample");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         CSExplicitEventReceivers ccs = CSClientObj.getRegisteredExplicitEventReceivers();
         if (ccs.getCSChatReceiverReceiver().equals("")) {
             CSClientObj.registerExplicitEventReceivers(new CSExplicitEventReceivers("com.ca.receivers.CSUserJoined", "com.ca.receivers.CSCallReceiver", "com.ca.receivers.CSChatReceiver", "com.ca.receivers.CSGroupNotificationReceiver", "com.ca.receivers.CSCallMissed"));
-            PrefereceProvider pff = new PrefereceProvider(getApplicationContext());
+            PreferenceProvider pff = new PreferenceProvider(getApplicationContext());
             pff.setPrefboolean("registerreceivers", true);
         }
 
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void getOptimizerPermissions() {
         try {
-            PrefereceProvider pf = new PrefereceProvider(getApplicationContext());
+            PreferenceProvider pf = new PreferenceProvider(getApplicationContext());
             boolean dontshowagain = pf.getPrefBoolean("dontshowagain");
             if (!dontshowagain) {
                 //boolean checkpermission = false;
@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //if(!checkpermission) {
 
-                PrefereceProvider pff = new PrefereceProvider(getApplicationContext());
+                PreferenceProvider pff = new PreferenceProvider(getApplicationContext());
                 pff.setPrefboolean("dontshowagain", true);
             }
         } catch (Exception ex) {
@@ -342,12 +342,6 @@ public class MainActivity extends AppCompatActivity {
             filter1.addAction(CSEvents.CSCALL_CALLLOGUPDATED);
             LocalBroadcastManager.getInstance(getApplicationContext()).registerReceiver(MainActivityReceiverObj, filter1);
             mNotificationManager.cancelAll();
-
-            // if application not login state below logic will initialize the application to server with user details
-            if (!CSDataProvider.getLoginstatus()) {
-                CSAppDetails csAppDetails = new CSAppDetails("CallSample", "pid_39684a6d_5103_4254_9775_1b923b9b98d5");
-                CSClientObj.initialize(Constants.server, Constants.port, csAppDetails);
-            }
             updateRecentsBadgeCount();
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -360,7 +354,6 @@ public class MainActivity extends AppCompatActivity {
         try {
             // below logic will unregister the registered receivers before closing application
             LocalBroadcastManager.getInstance(getApplicationContext()).unregisterReceiver(MainActivityReceiverObj);
-            getApplicationContext().unregisterReceiver(MainActivityReceiverObj);
             showLogInFailure = false;
         } catch (Exception ex) {
             ex.printStackTrace();

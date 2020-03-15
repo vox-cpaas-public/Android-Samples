@@ -4,15 +4,13 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.support.v4.content.LocalBroadcastManager;
-import android.widget.Toast;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.ca.Utils.CSConstants;
 import com.ca.Utils.CSEvents;
 import com.ca.dao.CSAppDetails;
 import com.ca.wrapper.CSCall;
 import com.ca.wrapper.CSClient;
-import com.ca.wrapper.CSDataProvider;
 
 public class MyApp extends com.ca.app.App {
 

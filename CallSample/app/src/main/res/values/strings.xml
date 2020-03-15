@@ -4,9 +4,7 @@
     <string name="activation_string">Please enter the activation code sent to your phone</string>
     <string name="your_phone">Your Phone</string>
     <string name="string_continue">Continue</string>
-    <string name="code">+91</string>
     <string name="phone_number">Phone Number</string>
-    <string name="signup">Sign Up</string>
     <string name="country">Country(+91)</string>
     <string name="setup">Setup</string>
     <string name="ConnectSDK">ConnectSDK</string>
@@ -29,5 +27,4 @@
     <string name="no_call_logs_found">No Log</string>
 
     <!--Contacts-->
-    <string name="search_contact_hint">Search Contacts</string>
 </resources>

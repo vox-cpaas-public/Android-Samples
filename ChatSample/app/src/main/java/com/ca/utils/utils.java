@@ -22,14 +22,13 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.ContactsContract;
 import android.provider.MediaStore;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.util.Log;
 
 import com.ca.chatsample.ChatAdvancedActivity;
 import com.ca.chatsample.EmptyActivity;
 import com.ca.chatsample.MainActivity;
 import com.ca.chatsample.R;
-import com.ca.wrapper.CSDataProvider;
 
 import java.io.File;
 import java.io.InputStream;

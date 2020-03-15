@@ -1,11 +1,10 @@
 package com.ca.chatsample;
 
 import android.content.pm.PackageManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.ca.chatsample.R;
 import com.ca.wrapper.CSClient;
 
 public class AboutActivity extends AppCompatActivity {

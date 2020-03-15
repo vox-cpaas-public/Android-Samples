@@ -18,10 +18,10 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Handler;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.FileProvider;
-import android.support.v7.widget.RecyclerView;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.Spannable;
 import android.text.format.DateUtils;
 import android.text.style.ForegroundColorSpan;
@@ -2696,7 +2696,7 @@ private void setSearchTextColor(TextView view,String actualstring) {
                     return;
                 }
                     filedownloadinitiatedchatids.add(chatid);
-                CSChatObj.downloadFile(chatid,path);
+                CSChatObj.downloadFile(chatid);
 
             } else if(action == Actions.DOWNLOADCANCEL) {
                 CSChatObj.cancelTransfer(chatid);

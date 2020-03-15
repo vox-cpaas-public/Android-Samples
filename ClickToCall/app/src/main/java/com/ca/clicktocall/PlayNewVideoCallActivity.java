@@ -15,9 +15,9 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.multidex.MultiDex;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.AlertDialog;
+import androidx.multidex.MultiDex;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.appcompat.app.AlertDialog;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
@@ -27,7 +27,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.ca.Utils.CSConstants;
 import com.ca.Utils.CSEvents;
@@ -38,10 +37,7 @@ import com.ca.wrapper.CSClient;
 import com.ca.wrapper.CSDataProvider;
 import com.ca.Utils.CSDbFields;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
 
 
 //import com.cavox.uiutils.UIActions;

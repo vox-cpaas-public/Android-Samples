@@ -57,6 +57,11 @@
             android:theme="@style/AppThemeNormal"
             android:screenOrientation="portrait"/>
         <activity
+            android:name="com.ca.callsample.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name="com.ca.callsample.SignUpActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="false"
@@ -88,11 +93,20 @@
             </intent-filter>
         </receiver>
         <!-- Fire base Notifications -->
-        <service android:name="com.ca.receivers.FireBaseMessagingService">
+        <service android:name="com.ca.services.FireBaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
+<!--
+        <service android:name=".MyVpnService"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService"/>
+            </intent-filter>
+        </service>
+-->
 
         <receiver android:name="com.ca.receivers.MissedCallNotificationHandler"/>
         <!-- ./Fire base Notifications -->

@@ -54,6 +54,11 @@
             android:exported="false"
             android:screenOrientation="portrait"></activity>
         <activity
+            android:name="com.ca.groupmanagementsample.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name="com.ca.groupmanagementsample.EmptyActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="false"
@@ -66,7 +71,11 @@
         <activity
             android:name="com.ca.groupmanagementsample.AboutActivity"
             android:screenOrientation="portrait"></activity>
-
+        <service android:name="com.ca.groupmanagementsample.FireBaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
         <receiver
             android:name="com.ca.receivers.CSUserJoined"
             android:exported="false">

@@ -6,7 +6,6 @@
     android:fillViewport="true">
 
     <RelativeLayout
-        android:id="@+id/sign_up_main_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/background">
@@ -22,7 +21,6 @@
         <!-- options layout-->
 
         <LinearLayout
-            android:id="@+id/sign_up_details_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"

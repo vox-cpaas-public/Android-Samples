@@ -4,10 +4,8 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.multidex.MultiDex;
+import androidx.multidex.MultiDex;
 
-import com.ca.Utils.CSDbFields;
-import com.ca.wrapper.CSClient;
 import com.ca.wrapper.CSDataProvider;
 
 public class SplashActivity extends Activity {
@@ -23,7 +21,7 @@ public class SplashActivity extends Activity {
         if (isAlreadySignedUp) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
         } else {
-            startActivity(new Intent(getApplicationContext(), SignUpActivity.class));
+            startActivity(new Intent(getApplicationContext(), LoginActivity.class));
         }
         finish();
     }

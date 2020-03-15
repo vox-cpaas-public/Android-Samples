@@ -15,18 +15,17 @@ import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.multidex.MultiDex;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.tabs.TabLayout;
+import androidx.multidex.MultiDex;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -38,7 +37,7 @@ import com.ca.Utils.CSConstants;
 import com.ca.adapaters.GroupsAdapter;
 import com.ca.chatsample.R;
 import com.ca.utils.Constants;
-import com.ca.utils.PrefereceProvider;
+import com.ca.utils.PreferenceProvider;
 import com.ca.utils.utils;
 import com.ca.wrapper.CSClient;
 import com.ca.wrapper.CSDataProvider;
@@ -65,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         CSExplicitEventReceivers ccs = CSClientObj.getRegisteredExplicitEventReceivers();
         if (ccs.getCSChatReceiverReceiver().equals("")) {
             CSClientObj.registerExplicitEventReceivers(new CSExplicitEventReceivers("com.ca.receivers.CSUserJoined", "com.ca.receivers.CSCallReceiver", "com.ca.receivers.CSChatReceiver", "com.ca.receivers.CSGroupNotificationReceiver", "com.ca.receivers.CSCallMissed"));
-            PrefereceProvider pff = new PrefereceProvider(getApplicationContext());
+            PreferenceProvider pff = new PreferenceProvider(getApplicationContext());
             pff.setPrefboolean("registerreceivers", true);
         }
 
@@ -151,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void getOptimizerPermissions() {
         try {
-            PrefereceProvider pf = new PrefereceProvider(getApplicationContext());
+            PreferenceProvider pf = new PreferenceProvider(getApplicationContext());
             boolean dontshowagain = pf.getPrefBoolean("dontshowagain");
             if (!dontshowagain) {
                 String manufacturer = Build.MANUFACTURER;
@@ -180,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 utils.showIntentAlert("Enable autostart permission to receive notifications", MainActivity.this, intent);
-                PrefereceProvider pff = new PrefereceProvider(getApplicationContext());
+                PreferenceProvider pff = new PreferenceProvider(getApplicationContext());
                 pff.setPrefboolean("dontshowagain", true);
             }
         } catch (Exception ex) {

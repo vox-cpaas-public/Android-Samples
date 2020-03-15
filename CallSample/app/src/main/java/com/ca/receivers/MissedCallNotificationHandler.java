@@ -5,13 +5,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import com.ca.utils.PrefereceProvider;
+import com.ca.utils.PreferenceProvider;
 
 
 public class MissedCallNotificationHandler extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        PrefereceProvider preferenceProvider = new PrefereceProvider(context);
+        PreferenceProvider preferenceProvider = new PreferenceProvider(context);
         Log.i("Misses", "onReceive: missedCallReceievr called");
         String managecontactnumber = intent.getStringExtra("number");
         String managedirection = intent.getStringExtra("direction");

@@ -10,7 +10,7 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.os.AsyncTask;
-import android.support.v4.widget.CursorAdapter;
+import androidx.cursoradapter.widget.CursorAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,7 +19,6 @@ import android.widget.TextView;
 import com.ca.Utils.CSDbFields;
 import com.ca.chatsample.R;
 import com.ca.groupmanagementsample.MainActivity;
-import com.ca.utils.utils;
 import com.ca.wrapper.CSDataProvider;
 
 import java.lang.ref.WeakReference;

@@ -6,7 +6,8 @@ public class Constants {
     public static String password = "password";
     public static String phoneNumber = "+917794xxxxx";
     public static boolean isAlreadySignedUp = false;
-
+    public static String pid = "pid_39684a6d_5103_4254_9775_1b923b9b98d5";
+    public static String appname = "Sample Apps";
 
     // SignUp screen Constants
     public static String INTENT_MOBILE_NUMBER = "registeredMobileNumber";

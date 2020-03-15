@@ -7,8 +7,8 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.multidex.MultiDex;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.multidex.MultiDex;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -17,13 +17,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.ca.Utils.CSDbFields;
+
 import com.ca.Utils.CSEvents;
 import com.ca.Utils.CSConstants;
 import com.ca.chatsample.R;
 import com.ca.utils.Constants;
 import com.ca.wrapper.CSClient;
-import com.ca.wrapper.CSDataProvider;
+
 public class ActivationActivity extends Activity {
 	private ProgressDialog mProgressBar;
 	private Handler mProgressBarHandler = new Handler();

@@ -5,7 +5,6 @@
     android:background="@color/background">
 
     <LinearLayout
-        android:id="@+id/audio_call_header_layout"
         android:layout_width="fill_parent"
         android:layout_height="120dp"
         android:background="@color/colorPrimary"

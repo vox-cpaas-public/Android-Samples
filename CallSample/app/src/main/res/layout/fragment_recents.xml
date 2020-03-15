@@ -21,7 +21,7 @@
         android:layout_marginTop="4dp"
         android:focusable="true" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/delete_call_log_img"
         app:backgroundTint="#d63131"
         android:layout_width="wrap_content"

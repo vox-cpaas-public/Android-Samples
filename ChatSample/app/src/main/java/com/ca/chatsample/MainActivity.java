@@ -15,16 +15,18 @@ import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.multidex.MultiDex;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.tabs.TabLayout;
+import androidx.multidex.MultiDex;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.core.content.ContextCompat;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -67,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
         mTabLayout.setupWithViewPager(mViewPager);
         mViewPager.setCurrentItem(2);
         showLogInFailure = true;
-        android.support.v7.widget.Toolbar toolbar =  findViewById(R.id.toolbar);
-        android.support.design.widget.AppBarLayout appBarLayout =  findViewById(R.id.appbarlayout);
+        androidx.appcompat.widget.Toolbar toolbar =  findViewById(R.id.toolbar);
+        AppBarLayout appBarLayout =  findViewById(R.id.appbarlayout);
         setSupportActionBar(toolbar);
         //toolbar.setTitle("Call sample");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -86,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("registerreceivers getCSUserJoinedReceiver:" + ccs.getCSUserJoinedReceiver());
 
         if (ccs.getCSChatReceiverReceiver().equals("")) {
-            CSClientObj.registerExplicitEventReceivers(new CSExplicitEventReceivers("com.ca.receivers.CSUserJoined", "com.ca.receivers.CSChatReceiver", "com.ca.receivers.CSGroupNotificationReceiver"));
+            CSClientObj.registerExplicitEventReceivers(new CSExplicitEventReceivers("com.ca.receivers.CSUserJoined", "com.ca.receivers.CSCallReceiver", "com.ca.receivers.CSChatReceiver", "com.ca.receivers.CSGroupNotificationReceiver", "com.ca.receivers.CSCallMissed"));
             PreferenceProvider pff = new PreferenceProvider(getApplicationContext());
             pff.setPrefboolean("registerreceivers", true);
         }

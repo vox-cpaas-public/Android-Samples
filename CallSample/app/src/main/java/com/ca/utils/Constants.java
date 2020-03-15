@@ -3,6 +3,8 @@ package com.ca.utils;
 public class Constants {
     public static String server =null;
     public static int port = 0;
+    public static String pid = "pid_39684a6d_5103_4254_9775_1b923b9b98d5";
+    public static String appname = "Sample Apps";
     public static String password = "password";
     public static String phoneNumber = "+9177940xxxxx";
     public static boolean isAlreadySignedUp = false;
@@ -18,4 +20,6 @@ public class Constants {
     public static int incallcount = 0;
     public static int answeredcallcount = 0;
     public static String lastcallid = "";
+
+
 }

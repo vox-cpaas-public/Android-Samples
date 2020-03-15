@@ -6,18 +6,17 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.multidex.MultiDex;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
+
+import androidx.multidex.MultiDex;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.ca.Utils.CSDbFields;
 import com.ca.adapaters.RecentsDetailLogAdapter;
-import com.ca.utils.PrefereceProvider;
+import com.ca.utils.PreferenceProvider;
 import com.ca.utils.utils;
 import com.ca.wrapper.CSDataProvider;
 import com.mikhaellopez.circularimageview.CircularImageView;
@@ -41,7 +40,7 @@ public class ShowUserLogActivity extends AppCompatActivity {
 
             mContactNumber = getIntent().getStringExtra("number");
             String name = getIntent().getStringExtra("name");
-            PrefereceProvider prefereceProvider=new PrefereceProvider(getApplicationContext());
+            PreferenceProvider prefereceProvider=new PreferenceProvider(getApplicationContext());
             prefereceProvider.setPrefString(mContactNumber+"MissedData","");
             // if contact not saved in device below if condition show the name as "Unknown"
             if (name.equals("")) {

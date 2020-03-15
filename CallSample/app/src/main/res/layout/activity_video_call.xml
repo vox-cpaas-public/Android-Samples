@@ -33,13 +33,11 @@
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/call_fragment_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone" />
 
         <FrameLayout
-            android:id="@+id/hud_fragment_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone"></FrameLayout>

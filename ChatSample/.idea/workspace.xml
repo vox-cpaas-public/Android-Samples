@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91da7ace-e5b5-47ca-90c0-b3220e30aab1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle___ConnectSDK__aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_multidex_multidex_instrumentation_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_percentlayout_percentlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_multidex_1_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_percent_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_github_lzyzsd_circleprogress_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_android_gms_play_services_location_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_android_gms_play_services_places_placereport_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_17_3_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_mikhaellopez_circularimageview_3_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__com_nostra13_universalimageloader_universal_image_loader_1_9_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__vox_cpaas_connectsdk_1_4_1_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__vox_cpaas_connectsdk_1_4_1_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/libraries/Gradle__vox_cpaas_connectsdk_1_4_2_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/receivers/InComingCallHandlingReceiverA10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/services/FireBaseMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/direct_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_instrumentation_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_percentlayout_percentlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__vox_cpaas_connectsdk_1_4_2_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_multidex_multidex_instrumentation_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_percentlayout_percentlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_multidex_1_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_percent_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_github_lzyzsd_circleprogress_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_android_gms_play_services_location_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_android_gms_play_services_places_placereport_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_17_3_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_mikhaellopez_circularimageview_3_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__com_nostra13_universalimageloader_universal_image_loader_1_9_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__vox_cpaas_connectsdk_1_4_1_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/libraries/Gradle__vox_cpaas_connectsdk_1_4_2_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/FireBaseMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_multidex_multidex_instrumentation_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_percentlayout_percentlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_multidex_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_multidex_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_percent_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_android_gms_play_services_location_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_android_gms_play_services_places_placereport_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_17_3_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__com_mikhaellopez_circularimageview_3_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__vox_cpaas_connectsdk_1_4_1_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/libraries/Gradle__vox_cpaas_connectsdk_1_4_2_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/FireBaseMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/res/layout/direct_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SignUpSample/SignUpSample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/adapaters/ContactsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/adapaters/ContactsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/adapaters/RecentsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/adapaters/RecentsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/adapaters/RecentsDetailLogAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/adapaters/RecentsDetailLogAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/AboutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/ActivationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/ActivationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/CallScreenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/CallScreenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/EmptyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/EmptyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/PlayNewAudioCallActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/PlayNewAudioCallActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/PlayNewVideoCallActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/PlayNewVideoCallActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/ShowUserLogActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/ShowUserLogActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/callsample/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/fragments/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/fragments/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/fragments/Recents.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/fragments/Recents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/receivers/CSCallReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/receivers/CSCallReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/receivers/MissedCallNotificationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/receivers/MissedCallNotificationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/utils/PrefereceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/utils/PreferenceProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/utils/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/java/com/ca/utils/utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/drawable-xhdpi/myselector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/drawable/ic_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_activation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_activation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_audio_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_audio_call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_callscreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_callscreen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_userlog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_userlog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_video_call.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/activity_video_call.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/contact_row_layout1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/contact_row_layout1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/fragment_recents.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/fragment_recents.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/recents_row_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/layout/recents_row_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/raw/busy.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CallSample/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CallSample/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/CustomViews/MyDividerItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/CustomViews/MyDividerItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/CustomViews/MyProgressDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/CustomViews/MyProgressDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/AppContactsMultiSelectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/AppContactsMultiSelectAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ChatAdvancedAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ChatAdvancedAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ChatsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ChatsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ContactsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ContactsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ShareContactsInChatAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ShareContactsInChatAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/AboutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ActivationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ActivationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ChatAdvancedActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ChatAdvancedActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ContactViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ContactViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/EmptyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/EmptyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/LocationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/LocationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/LoginSelectionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/LoginSelectionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ShareContactsInChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ShareContactsInChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ShowAppContactsMultiSelectActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/ShowAppContactsMultiSelectActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/fragments/Chats.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/fragments/Chats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/fragments/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/fragments/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/receivers/CSChatReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/receivers/CSChatReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/utils/ChatMethodHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/utils/ChatMethodHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/utils/PermissionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/utils/PermissionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ca/utils/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ca/utils/utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_new_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_new_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact_share.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact_share.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/advanced_activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/advanced_activity_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chat_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chat_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chats.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chats.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_contacts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sharecontactsinchat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sharecontactsinchat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/ClickToCallActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/ClickToCallActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/ClickToCallApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/ClickToCallApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/ClickToCallConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/ClickToCallConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/EmptyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/EmptyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/MyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/PlayNewAudioCallActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/PlayNewAudioCallActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/PlayNewVideoCallActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/PlayNewVideoCallActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/PlaySipCallActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/PlaySipCallActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/app/src/main/java/com/ca/clicktocall/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClickToCall/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ClickToCall/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/adapaters/AppContactsMultiSelectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/adapaters/AppContactsMultiSelectAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/adapaters/GroupsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/adapaters/GroupsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/AboutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/ActivationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/ActivationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/CreateGroupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/CreateGroupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/EditGroupInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/EditGroupInfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/EmptyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/EmptyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/ManageGroupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/ManageGroupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/ShowAppContactsMultiSelectActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/ShowAppContactsMultiSelectActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/groupmanagementsample/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/utils/PrefereceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/java/com/ca/utils/PreferenceProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/res/layout/activity_group_scrolling.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/res/layout/activity_group_scrolling.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/res/layout/content_group_scrolling.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/res/layout/content_group_scrolling.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/res/layout/sharecontactsinchat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/app/src/main/res/layout/sharecontactsinchat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroupManagementSample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../GroupManagementSample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/LoginSample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/androidTest/java/com/ca/loginsample/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/java/com/ca/loginsample/AboutActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/java/com/ca/loginsample/ActivationActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/java/com/ca/loginsample/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/java/com/ca/loginsample/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/java/com/ca/loginsample/SignUpActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/drawable-hdpi/ic_about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/drawable-mdpi/ic_about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/drawable-xhdpi/ic_about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/drawable-xxhdpi/ic_about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/layout/activity_about.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/layout/activity_activation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/layout/activity_signup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/app/src/test/java/com/ca/loginsample/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LoginSample/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="1717dc3a" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/receivers/CSChatReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/SplashActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/receivers/FireBaseMessagingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ChatAdvancedAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="2698" column="45" selection-start-line="2698" selection-start-column="45" selection-end-line="2698" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CSChatReceiver</find>
+      <find>firebase-messaging</find>
+      <find>loginac</find>
+      <find>Message Type</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ChatAdvancedAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1383" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="035042487P000968" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-03-15T20:07:05.968Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91da7ace-e5b5-47ca-90c0-b3220e30aab1" name="Default Changelist" comment="" />
+      <created>1560955344543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560955344543</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.22348177" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.75555557" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.5277778" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32962963" />
+      <window_info anchor="right" id="Preview" weight="0.32955465" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/receivers/CSChatReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/adapaters/ChatAdvancedAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="2698" column="45" selection-start-line="2698" selection-start-column="45" selection-end-line="2698" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/receivers/FireBaseMessagingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ca/chatsample/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="123" column="11" selection-start-line="123" selection-start-column="11" selection-end-line="123" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
