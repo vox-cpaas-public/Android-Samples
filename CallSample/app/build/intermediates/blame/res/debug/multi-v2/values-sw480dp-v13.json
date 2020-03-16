@@ -1,0 +1,24 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Sample Apps\\CallSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw480dp-v13\\values-sw480dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Sample Apps\\CallSample\\app\\src\\main\\res\\values-sw480dp\\dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,92,131,168,205,242,279",
+                        "endColumns": "36,38,36,36,36,36,40",
+                        "endOffsets": "87,126,163,200,237,274,315"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+<!--
+  ~ Copyright (c) 2017 Voxvalley, http://voxvalley.com/
+  ~ All Right Reserved,
+  ~  <p>
+  ~ NOTICE:  All information contained herein is, and remains the property of
+  ~ Voxvalley and its suppliers, if any.
+  ~
+  -->
+
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 7" tablets) in potrait here.
+    -->
+
+    <!-- Scaled pixel sizes for text view -->
+    <dimen name="text_22sp">34sp</dimen>
+
+    <!-- All layouts dimensions -->
+    <dimen name="_10dp">17dp</dimen>
+    <dimen name="_20dp">32dp</dimen>
+    <dimen name="_30dp">48dp</dimen>
+    <dimen name="_60dp">95dp</dimen>
+    <dimen name="_65dp">100dp</dimen>
+    <dimen name="_200dp">320dp</dimen>
+
+</resources>
