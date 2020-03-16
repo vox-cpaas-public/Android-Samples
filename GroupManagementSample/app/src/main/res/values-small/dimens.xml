@@ -1,0 +1,26 @@
+<!--
+  ~ Copyright (c) 2017 Voxvalley, http://voxvalley.com/
+  ~ All Right Reserved,
+  ~  <p>
+  ~ NOTICE:  All information contained herein is, and remains the property of
+  ~ Voxvalley and its suppliers, if any.
+  ~
+  -->
+
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Scaled pixel sizes for text view -->
+    <dimen name="text_22sp">17sp</dimen>
+
+    <!-- All layouts dimensions -->
+    <dimen name="_10dp">7dp</dimen>
+    <dimen name="_20dp">14dp</dimen>
+    <dimen name="_22dp">16dp</dimen>
+    <dimen name="_30dp">22dp</dimen>
+    <dimen name="_60dp">45dp</dimen>
+    <dimen name="_65dp">50dp</dimen>
+    <dimen name="_200dp">140dp</dimen>
+
+</resources>
