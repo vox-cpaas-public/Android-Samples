@@ -1,0 +1,4 @@
+# Referenced at D:\Sample Apps\ClickToCall\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:48
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at D:\Sample Apps\ClickToCall\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:48
+-keep class com.ca.clicktocall.MyApp { <init>(); }
